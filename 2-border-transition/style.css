@@ -1,0 +1,23 @@
+body {
+	margin: 0 auto;
+	width: 100%;
+	font-size: 5em;
+	font-family: Helvetica;
+}
+
+nav a { border-bottom: 3px solid #e83119 }
+nav a:hover { border-bottom: 50px solid #e83119 }
+nav a{-webkit-transition: border .3s ease-out;}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #ccc;
+	text-decoration: none;
+	left: 50%;
+}
+
+a:hover { color: #3ad; }
+

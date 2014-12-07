@@ -1,0 +1,16 @@
+body {
+	margin: 0 auto;
+	width: 100%;
+	font-size: 5em;
+	font-family: Helvetica;
+}
+
+a {
+	color: #3ad;
+	text-decoration: none;
+	left: 50%;
+}
+
+a:hover { color: #ccc; }
+
+a{-webkit-transition-property: color; -webkit-transition-duration:.2s; -webkit-transition-timing:ease-out; }
