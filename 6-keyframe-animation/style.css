@@ -11,6 +11,24 @@ body {
 	-webkit-animation-iteration-count: infinite;
 }
 
+/*NOT WORKING YET*/
+
+#sun {
+	position: relative;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border-color: #ccc;
+}
+
+#sun.animate {
+	animation-name: sunrise;
+	animation-duration: 10s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+}
+
 @-webkit-keyframes track {
 	0% { margin-top: 0px; }
 	25% { margin-top: 150px; }
@@ -24,5 +42,28 @@ body {
 	}
 	100% {
 		margin-left: 0;
+	}
+}
+
+@-webkit-keyframes sunrise {
+	0% {
+	        bottom: 0;
+	        left: 340px;
+	        background: #f00;
+	}
+	33% {
+	        bottom: 340px;
+	        left: 340px;
+	        background: #ffd630;
+	}
+	66% {
+	        bottom: 340px;
+	        left: 40px;
+	        background: #ffd630;
+	}
+	100% {
+	        bottom: 0;
+	        left: 40px;
+	        background: #f00;
 	}
 }
